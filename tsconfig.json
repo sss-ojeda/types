@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		// "module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"incremental": true,
+		// "emitDeclarationOnly": true,
+		// "declaration"L
+    // Generate d.ts files
+	},
+	"exclude": [
+		"node_modules",
+		"dist",
+	],
+}
